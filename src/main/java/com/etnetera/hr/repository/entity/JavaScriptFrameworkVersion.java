@@ -28,6 +28,7 @@ public class JavaScriptFrameworkVersion {
     private LocalDate deprecationDate;
 
     @Column(nullable = false)
+    @Enumerated(EnumType.STRING)
     private HypeLevel hypeLevel;
 
 }
